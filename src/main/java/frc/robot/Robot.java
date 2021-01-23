@@ -14,6 +14,7 @@ import edu.wpi.first.wpilibj.AnalogInput;
 import edu.wpi.first.wpilibj.SPI;
 import edu.wpi.first.wpilibj.SpeedControllerGroup;
 import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 
 /**
@@ -60,6 +61,8 @@ public class Robot extends TimedRobot {
   public static SpeedControllerGroup rightMotorGroup = new SpeedControllerGroup(rightFront, rightRear);
 
   public static AHRS drivetrainGyro = new AHRS(SPI.Port.kMXP);
+
+  public static DifferentialDrive drive = new DifferentialDrive(leftMotorGroup, rightMotorGroup);
 
   // Intake Variables \\
   public static WPI_VictorSPX intakeMotor = new WPI_VictorSPX(Constants.kIntakeMotorID);

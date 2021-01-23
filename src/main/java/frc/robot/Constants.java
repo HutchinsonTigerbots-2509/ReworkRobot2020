@@ -34,6 +34,9 @@ public final class Constants {
     public static final int kRightFrontID = 0; //TODO
     public static final int kRightRearID = 0; //TODO
     public static final int kMXP = 0; //TODO
+    public static final int kDrivetrainPGain = 0; //TODO
+    public static final int kDrivetrianIGain = 0; //TODO
+    public static final int kDrivetrainDGain = 0; //TODO
 
     // Intake ID's \\
     public static final int kIntakeMotorID = 0; //TODO
@@ -47,6 +50,23 @@ public final class Constants {
     public static final int kTurretMotorID = 0; //TODO
     public static final int kTurretLimitID = 0; //TODO
 
-    // \\
+    // Xbox Controller Variables \\
+    public final static int JoystickPortID = 1;
+    public final static int xboxLeftJoystickHorizontal = 0;
+    public final static int xboxLeftJoystickVertical = 1;
+    public final static int xboxLeftTrigger = 2;
+    public final static int xboxRightTrigger = 3;
+    public final static int xboxRightJoystickHorizontal = 4;
+    public final static int xboxRightJoystickVertical = 5;
+    public final static int xboxButtonA = 1;
+    public final static int xboxButtonB = 2;
+    public final static int xboxButtonX = 3;
+    public final static int xboxButtonY = 4;
+    public final static int xboxLeftBumper = 5;
+    public final static int xboxRightBumper = 6;
+    public final static int xboxButtonBack = 7;
+    public final static int xboxButtonStart = 8;
+    public final static int xboxLeftJoystickButton = 9;
+    public final static int xboxRightJoystickButton = 10;
 
 }
