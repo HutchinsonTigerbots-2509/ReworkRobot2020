@@ -4,9 +4,14 @@
 
 package frc.robot;
 
+import java.sql.DriverAction;
+
 import edu.wpi.first.wpilibj.GenericHID;
+import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.XboxController;
 import edu.wpi.first.wpilibj2.command.Command;
+import edu.wpi.first.wpilibj2.command.button.JoystickButton;
+import frc.robot.subsystems.*;
 
 /**
  * This class is where the bulk of the robot should be declared. Since Command-based is a
@@ -18,6 +23,36 @@ public class RobotContainer {
   // The robot's subsystems and commands are defined here...
 
   //#region Variable Declarations
+
+  // Joystick Variables \\
+  public Joystick OpStick = new Joystick(Constants.OpJoystickPortID);
+  public Joystick CoOpStick = new Joystick(Constants.CoOpJoystickPortID);
+
+  private JoystickButton alignButton;
+  private JoystickButton runConveyorMaxButton;
+  private JoystickButton conveyorReverseButton;
+  private JoystickButton shootAllButton;
+  private JoystickButton runShooterMaxButton;
+  private JoystickButton colorWheelForward;
+  private JoystickButton colorWheelReverse;
+  private JoystickButton switchPipelineButton;
+  private JoystickButton extendClimberButton;
+  private JoystickButton retractClimberButton;
+  private JoystickButton creepLeftButton;
+  private JoystickButton creepRightButton;
+  private JoystickButton disableSensorButton;
+  private JoystickButton climbLock;
+
+
+  // Subsystems \\
+  public Climb climb = new Climb();
+  public ColorWheel colorWheel = new ColorWheel();
+  public Conveyor conveyor = new Conveyor();
+  public Drivetrain drivetrain = new Drivetrain();
+  public Intake intake = new Intake();
+  public Shooter shooter = new Shooter();
+  public Turret turret = new Turret();
+  public Vision vision = new Vision();
 
   //#endregion
 

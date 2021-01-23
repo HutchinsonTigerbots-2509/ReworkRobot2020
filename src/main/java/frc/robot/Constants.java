@@ -49,8 +49,11 @@ public final class Constants {
     public static final int kTurretMotorID = 8;
     public static final int kTurretLimitID = 2;
 
+    // Joystick Variables \\
+    public final static int OpJoystickPortID = 1;
+    public final static int CoOpJoystickPortID = 0;
+
     // Xbox Controller Variables \\
-    public final static int JoystickPortID = 1;
     public final static int xboxLeftJoystickHorizontal = 0;
     public final static int xboxLeftJoystickVertical = 1;
     public final static int xboxLeftTrigger = 2;
