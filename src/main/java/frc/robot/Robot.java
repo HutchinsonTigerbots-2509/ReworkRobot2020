@@ -29,15 +29,18 @@ public class Robot extends TimedRobot {
 
   // General Variables \\
   public static RobotContainer robotContainer; // Initialized in robotInit
+  
 
   // Climbing Variables \\
   public static WPI_TalonSRX climbMotor = new WPI_TalonSRX(Constants.kClimbMotorID);
   public static WPI_TalonSRX climbLock = new WPI_TalonSRX(Constants.kClimbLockID);
 
   public static AnalogInput climbLimit = new AnalogInput(Constants.kClimbLimitID);
+  
 
   // Color Wheel Variables \\
   public static WPI_VictorSPX colorWheelMotor = new WPI_VictorSPX(Constants.kColorMotorID);
+  
 
   // Conveyor Variables \\
   public static WPI_VictorSPX topConveyorMotor = new WPI_VictorSPX(Constants.kTopConveyorMotorID);
@@ -45,6 +48,7 @@ public class Robot extends TimedRobot {
 
   public static AnalogInput topLightSensor = new AnalogInput(Constants.kTopLightSensorID);
   public static AnalogInput bottomLightSensor = new AnalogInput(Constants.kBottomLightSensorID);
+  
 
   // Drivetrain Variables \\
   public static WPI_TalonFX leftFront = new WPI_TalonFX(Constants.kLeftFrontID);
@@ -63,14 +67,17 @@ public class Robot extends TimedRobot {
   public static AHRS drivetrainGyro = new AHRS(SPI.Port.kMXP);
 
   public static DifferentialDrive drive = new DifferentialDrive(leftMotorGroup, rightMotorGroup);
+  
 
   // Intake Variables \\
   public static WPI_VictorSPX intakeMotor = new WPI_VictorSPX(Constants.kIntakeMotorID);
   public static WPI_TalonSRX intakeDropMotor = new WPI_TalonSRX(Constants.kIntakeDropMotorID);
+  
 
   // Shooter Variables \\
   public static WPI_TalonSRX topShooterMotor = new WPI_TalonSRX(Constants.kTopShooterMotorID);
   public static WPI_TalonSRX bottomShooterMotor = new WPI_TalonSRX(Constants.kBottomShooterMotorID);
+  
 
   // Turret Variables \\
   public static WPI_TalonSRX turretMotor = new WPI_TalonSRX(Constants.kTurretMotorID);
