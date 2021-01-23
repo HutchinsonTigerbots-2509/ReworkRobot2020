@@ -36,6 +36,7 @@ public final class Constants {
     public static final double kDrivetrainPGain = 0.15;
     public static final double kDrivetrianIGain = 0.0;
     public static final double kDrivetrainDGain = 4.0;
+    public static final int kShooterTicksPerRotation = 2048;
 
     // Intake ID's \\
     public static final int kIntakeMotorID = 9;
@@ -44,6 +45,10 @@ public final class Constants {
     // Shooter ID's \\
     public static final int kTopShooterMotorID = 5;
     public static final int kBottomShooterMotorID = 4;
+    public static final double kShooterPGain = 1.25;
+    public static final double kShooterIGain = 0.0;
+    public static final double kShooterDGain = 4.0;
+
 
     // Turret ID's \\
     public static final int kTurretMotorID = 8;
