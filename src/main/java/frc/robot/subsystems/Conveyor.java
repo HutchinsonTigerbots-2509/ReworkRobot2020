@@ -19,6 +19,7 @@ public class Conveyor extends SubsystemBase {
 
   //#region Variable Declaration
 
+  // Variables for colorwheel subsystem \\
   private WPI_VictorSPX topConveyorMotor = Robot.topConveyorMotor;
   private WPI_VictorSPX bottomConveyorMotor = Robot.bottomConveyorMotor;
 
