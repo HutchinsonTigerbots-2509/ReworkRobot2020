@@ -15,40 +15,39 @@ package frc.robot;
 public final class Constants {
 
     // Climbing ID's \\
-    public static final int kClimbMotorID = 0; //TODO
+    public static final int kClimbMotorID = 11;
     public static final int kClimbLockID = 12;
-    public static final int kClimbLimitID = 0; //TODO
+    public static final int kClimbLimitID = 3;
 
     // Color Wheel ID's\\
-    public static final int kColorMotorID = 0; //TODO
+    public static final int kColorMotorID = 10;
     
     // Conveyor ID's \\
-    public static final int kTopConveyorMotorID = 0; //TODO
-    public static final int kBottomConveyorMotorID = 0; //TODO
-    public static final int kTopLightSensorID = 0; //TODO
-    public static final int kBottomLightSensorID = 0; //TODO
+    public static final int kTopConveyorMotorID = 6;
+    public static final int kBottomConveyorMotorID = 7;
+    public static final int kTopLightSensorID = 0;
+    public static final int kBottomLightSensorID = 1;
 
     // Drivetrain ID's \\
-    public static final int kLeftFrontID = 0; //TODO
-    public static final int kLeftRearID = 0; //TODO
-    public static final int kRightFrontID = 0; //TODO
-    public static final int kRightRearID = 0; //TODO
-    public static final int kMXP = 0; //TODO
-    public static final int kDrivetrainPGain = 0; //TODO
-    public static final int kDrivetrianIGain = 0; //TODO
-    public static final int kDrivetrainDGain = 0; //TODO
+    public static final int kLeftFrontID = 0;
+    public static final int kLeftRearID = 1;
+    public static final int kRightFrontID = 2;
+    public static final int kRightRearID = 3;
+    public static final double kDrivetrainPGain = 0.15;
+    public static final double kDrivetrianIGain = 0.0;
+    public static final double kDrivetrainDGain = 4.0;
 
     // Intake ID's \\
-    public static final int kIntakeMotorID = 0; //TODO
-    public static final int kIntakeDropMotorID = 0; //TODO
+    public static final int kIntakeMotorID = 9;
+    public static final int kIntakeDropMotorID = 13;
 
     // Shooter ID's \\
-    public static final int kTopShooterMotorID = 0; //TODO
-    public static final int kBottomShooterMotorID = 0; //TODO
+    public static final int kTopShooterMotorID = 5;
+    public static final int kBottomShooterMotorID = 4;
 
     // Turret ID's \\
-    public static final int kTurretMotorID = 0; //TODO
-    public static final int kTurretLimitID = 0; //TODO
+    public static final int kTurretMotorID = 8;
+    public static final int kTurretLimitID = 2;
 
     // Xbox Controller Variables \\
     public final static int JoystickPortID = 1;
